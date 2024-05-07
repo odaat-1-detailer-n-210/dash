@@ -1,0 +1,29 @@
+@tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+}
+
+input[type='number'].custom-number-input {
+  -moz-appearance: textfield;
+  appearance: textfield;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-size: 16px;
+}
+
+input[type='number'].custom-number-input::-webkit-inner-spin-button,
+input[type='number'].custom-number-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'].custom-number-input:hover {
+  background-color: #e6e6e6;
+}
+
+input[type='number'].custom-number-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #4d90fe;
+}
